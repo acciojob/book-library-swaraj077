@@ -1,1 +1,44 @@
 /*  your css code here. If applicable */
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: ##ffffff;
+}
+
+.book-library{
+	background-color: #f8f8f8;
+	padding: 10px 20px;
+}
+
+.book{
+	padding: 10px;
+}
+
+.space{
+	background-color: white;
+	height: 20px;
+}
+
+.book p:nth-last-child(2){
+	color: #777777;
+}
+
+.book p:last-child{
+	text-align: center;
+	color: white;
+	background-color: #2ecc71;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+img{
+	display: block;
+	margin: auto;
+}
+
+h1{
+	text-align: center;
+}
